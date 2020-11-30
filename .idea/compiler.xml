@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="jixiang-product" />
+        <module name="jixiang-order" />
+        <module name="jixiang-ware" />
+        <module name="jixiang-coupon" />
+        <module name="jixiang-member" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jixiang-coupon" target="1.8" />
+      <module name="jixiang-member" target="1.8" />
+      <module name="jixiang-order" target="1.8" />
+      <module name="jixiang-product" target="1.8" />
+      <module name="jixiang-ware" target="1.8" />
+      <module name="JixiangMall" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jixiang-coupon" options="-parameters" />
+      <module name="jixiang-member" options="-parameters" />
+      <module name="jixiang-order" options="-parameters" />
+      <module name="jixiang-product" options="-parameters" />
+      <module name="jixiang-ware" options="-parameters" />
+    </option>
+  </component>
+</project>
